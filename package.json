@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/dora1998/use-liff/issues"
   },
-  "homepage": "https://github.com/dora1998/use-liff#readme"
+  "homepage": "https://github.com/dora1998/use-liff#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.38",
+    "jest": "^26.0.1",
+    "liff-type": "^2.1.2",
+    "typescript": "^3.9.5"
+  }
 }
