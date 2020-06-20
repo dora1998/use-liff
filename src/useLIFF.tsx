@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import * as React from 'react'
 import {
   LiffDecodedProfile,
   LIFFConfig,
@@ -19,7 +19,7 @@ export const useLIFF: (
   initSuccessCallback?: LiffInitSuccessCallback,
   errorCallback?: LiffInitErrorCallback
 ) => void = (config, initSuccessCallback, errorCallback) => {
-  useEffect(() => {
+  React.useEffect(() => {
     importByScriptTag('https://static.line-scdn.net/liff/edge/2/sdk.js').then(
       () => {
         liff.init(
