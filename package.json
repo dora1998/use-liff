@@ -2,7 +2,8 @@
   "name": "use-liff",
   "version": "0.1.0",
   "description": "Use LIFF v2 with React Hooks",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && tsc -b tsconfig.json",
     "lint": "eslint \"src/**/*.{ts,tsx}\" --fix",
