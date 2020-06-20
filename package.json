@@ -23,8 +23,14 @@
   "homepage": "https://github.com/dora1998/use-liff#readme",
   "devDependencies": {
     "@types/react": "^16.9.38",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "eslint": "^7.3.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "jest": "^26.0.1",
     "liff-type": "^2.1.2",
+    "prettier": "^2.0.5",
     "typescript": "^3.9.5"
   }
 }
