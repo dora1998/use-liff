@@ -4,6 +4,7 @@
   "description": "Use LIFF v2 with React Hooks",
   "main": "index.js",
   "scripts": {
+    "build": "rimraf dist && tsc -b tsconfig.json",
     "lint": "eslint \"src/**/*.{ts,tsx}\" --fix",
     "lint:fix": "eslint \"src/**/*.{ts,tsx}\" --fix",
     "test": "jest"
