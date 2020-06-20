@@ -1,0 +1,24 @@
+{
+  "name": "use-liff",
+  "version": "0.1.0",
+  "description": "Use LIFF v2 with React Hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dora1998/use-liff.git"
+  },
+  "keywords": [
+    "liff",
+    "react",
+    "hooks"
+  ],
+  "author": "Minoru Takeuchi <me@minoru.dev> (https://minoru.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dora1998/use-liff/issues"
+  },
+  "homepage": "https://github.com/dora1998/use-liff#readme"
+}
