@@ -25,6 +25,11 @@
     "url": "https://github.com/dora1998/use-liff/issues"
   },
   "homepage": "https://github.com/dora1998/use-liff#readme",
+  "peerDependencies": {
+    "liff-type": "^2.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
   "devDependencies": {
     "@types/react": "^16.9.38",
     "@typescript-eslint/eslint-plugin": "^3.3.0",
