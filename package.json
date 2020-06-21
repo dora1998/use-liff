@@ -8,7 +8,8 @@
     "build": "rimraf dist && tsc -b tsconfig.json",
     "lint": "eslint \"src/**/*.{ts,tsx}\" --fix",
     "lint:fix": "eslint \"src/**/*.{ts,tsx}\" --fix",
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
